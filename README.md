@@ -1,11 +1,11 @@
 
 # htmlinit
 
-Make a quick test page for your script:
+  Make a quick test page for your script:
 
-`$ htmlinit <script.js>`
+    $ htmlinit <script.js>
 
-creates:
+  creates:
 
 ```html
 <!DOCTYPE html>
@@ -23,6 +23,13 @@ creates:
 
 ## Install
 
-    sudo make install
+  Install with [ghi](https://github.com/stephenmathieson/ghi)
 
-Will install under `/usr/local/bin`
+    ghi jb55/htmlinit
+
+  Install with make
+
+    cd /tmp && git clone https://github.com/jb55/htmlinit && cd htmlinit
+    make install
+
+  Will install under `/usr/local/bin`
